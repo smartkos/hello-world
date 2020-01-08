@@ -1,0 +1,31 @@
+{
+  "name": "hello-world",
+  "version": "0.0.1",
+  "description": "hello jenkins test app",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smartkos/hello-world.git"
+  },
+  "keywords": [
+    "mocha",
+    "jenkins",
+    "supertest"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smartkos/hello-world/issues"
+  },
+  "homepage": "https://github.com/smartkos/hello-world#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^7.0.0",
+    "supertest": "^4.0.2"
+  }
+}
